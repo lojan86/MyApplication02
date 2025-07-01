@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name" />
+
+    <Button
+        android:id="@+id/btnNavigate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Second Activity" />
+
+    <Button
+        android:id="@+id/btnOpenWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Web Page" />
+
+    <Button
+        android:id="@+id/btnDialPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial Phone" />
+
+    <Button
+        android:id="@+id/btnCapturePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capture Photo" />
+</LinearLayout>
